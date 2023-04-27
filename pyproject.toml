@@ -1,0 +1,3 @@
+[[tool.mypy.overrides]]
+module = "ipynb.*"
+ignore_missing_imports = true
