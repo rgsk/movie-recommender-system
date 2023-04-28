@@ -12,7 +12,7 @@ this starts the application in development mode (refreshes on code changes)
 
 http://localhost:8000/
 
-```
+```json
 {
   "message": "Server running on port: 8000"
 }
@@ -22,7 +22,7 @@ below endpoint gives the top 5 recommendations based on movie name or title
 
 http://localhost:8000/search?movie=Avatar
 
-```
+```json
 [
   "Aliens vs Predator: Requiem",
   "Aliens",
@@ -36,7 +36,7 @@ below endpoint gives the list of movie names for which we can get the recommenda
 
 http://localhost:8000/movies
 
-```
+```json
 [
   "Avatar",
   "Pirates of the Caribbean: At World's End",
@@ -52,7 +52,6 @@ http://localhost:8000/movies
   "Quantum of Solace",
   "Pirates of the Caribbean: Dead Man's Chest",
   "The Lone Ranger",
-  "Man of Steel",
-  ....
+  "Man of Steel"
 ]
 ```
